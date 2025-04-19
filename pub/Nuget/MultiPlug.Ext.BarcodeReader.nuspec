@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MultiPlug.Ext.BarcodeReader</id>
+    <version>0.0.1</version>
+    <title>Barcode Reader MultiPlug Edge Computing Platform Extension</title>
+    <authors>4IR.UK</authors>
+    <owners>4IR.UK</owners>
+    <projectUrl>https://github.com/Industry4/MultiPlug.Ext.BarcodeReader</projectUrl>
+    <icon>images\IPC-HERMES-9852-MULTIPLUG.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>XXXXX</description>
+    <repository type="git" url="https://github.com/Industry4/MultiPlug.Ext.BarcodeReader" />
+    <releaseNotes>* Changelog 
+    </releaseNotes>
+    <copyright>4IR.UK British Systems 2025</copyright>
+    <tags>Barcode Edge_Computing</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="MultiPlug.Core" version="2.2.80" />	  
+        <dependency id="MultiPlug.Base" version="1.0.71" />
+        <dependency id="MultiPlug.Extension.Core" version="1.0.64" />
+      </group>
+    </dependencies>
+  </metadata>
+   <files>
+    <file src="images\IPC-HERMES-9852-MULTIPLUG.png" target="images\" />
+    <file src="..\..\src\MultiPlug.Ext.BarcodeReader\bin\Release\MultiPlug.Ext.BarcodeReader.dll" target="lib\net472" />
+  </files>
+</package>
